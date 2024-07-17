@@ -1,0 +1,226 @@
+*{
+     margin: 0;
+    padding: 0;
+
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(home\ page\ play\ visa.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 2200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 60px;
+}
+.logo{
+    color:#000000;
+    font-size: 30px;
+    font-family: Monospace;
+    padding-left: 20px;
+    width: 100%; 
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+   float:left;
+    display:flex; 
+    justify-content: center; 
+    align-items:right; 
+   color:rgb(109, 25, 25)
+} 
+ul li{
+    list-style: none;
+    margin-left: 12px;
+    margin-top: 27px;
+    font-size: 17px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-weight:bold; 
+    transition: 0.4s ease-out;
+}
+ul li a:hover{
+    color:#000000;
+}
+.search{
+    width:330px;
+    float: top;
+    margin-left: 1260px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width:125px;
+    height: 10px;
+    background:bisque;
+    border: 1px solid #000000;
+    margin-top:0px;
+    color:rgb(0, 0, 0);
+    border-right: none;
+    font-size: 16px;
+    float:left;
+    padding:10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    background: #000000;
+    border: 2px solid #000000;
+    margin-top:13px;
+    color:aqua;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width:1200px;
+    height: 0px;
+    margin:2px;
+    color: Beige;
+    position: static;
+}
+.content h1{  
+    font-family: 'Times New Roman';
+    font-size: 45px;
+    padding-left:200px;
+    margin: 200px;
+    letter-spacing: 2px;
+} 
+.form{
+    width: 250px;
+    height: 370px;
+    background: linear-gradient(to margin-bottom,rgba(0,0,0,0)50%,rgba(0,0,0,0)50%);
+    position: fixed ;
+    top: 420px;
+    left:1230px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form{
+    width:220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #7c9d39;
+    font-size: 22px;
+    background-color:rgba(0, 6, 9, 0.981);
+    border-radius: 10px;
+    margin:1px;
+    padding: 8px;
+}
+.form.input{
+    width:240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:rgb(1, 6, 10);
+    font-size:15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+outline: none;
+}
+::placeholder{
+    color:  black;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: whitesmoke;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.form.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top:20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color:#ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.iconsa{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.3rem;
+    width: 50;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.icons:hover{
+color:whitesmoke
+
+}
+.instagram{
+   background:linear-gradient(rgb(243,5,171),rgb(205,95,4),yellow) ;
+   color: whitesmoke;
+}
+.facebook{
+    color: #385998;
+}
+.google{
+background-color: #ca3224;
+
+}
+.linkedin{
+    background-color:#0e76ab ;
+    color:white;
+}
+.twitter{
+    background-color: #00acee;
+    color:#0e76ab;
+
+}
